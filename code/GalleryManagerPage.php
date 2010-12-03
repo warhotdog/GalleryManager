@@ -39,15 +39,4 @@ class GalleryManagerPage_Controller extends Page_Controller {
 			Requirements::css(GALLERYMANAGERPATH_THIRDPARTY."/Slideshow2/css/slideshow.css");
 		}
 	}
-	
-	Public function getGMPageShow() {
-		$type = parent::__get('GalleryManagerTypeJS');
-	}
-	
-	//public function getContent() {
-		//Test Function
-	//	$Content = DataObject::get_by_id($this->ClassName,$this->ID)->Content;
-	//	return "<p> Duaaaaaaaaaa jajajajaj </p>". $Content;
-	//}
-	
 }
